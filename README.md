@@ -4,7 +4,7 @@
 
 > 前端react架构项目
 
-##### 技术架构
+### 技术架构
 
 - 打包工具webpack
 
@@ -21,7 +21,7 @@
 - 路由采用react-router
 
 
-### 2.目录结构
+### 目录结构
 
 	├── README.md                       项目介绍
 	├── webpack.config.js               webpack的配置页面
