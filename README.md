@@ -20,24 +20,26 @@
 
 - 路由采用react-router
 
-##### 项目目录
 
-- src
-	- js
-		- components  存放view视图组件
-		- reducer	  存放各个容器组件的reducer
-		- actions	  存放各个容器组件的action
-		- container   存放容器组件
-		- router      存放路由
-		- saga        用来进行异步action的处理
-		- store       用来生成存放数据的顶层组件
-		- index.js    定义项目的入口文件
-	- img
-	- css
-		- style.css
-	- libs
-- dist
-- webpack.config.js
-- packjson.json
+### 2.目录结构
+
+	├── README.md                       项目介绍
+	├── webpack.config.js               webpack的配置页面
+	├── package.json                    项目依赖包
+	├── src                             源码目录    
+	│   ├── index.js                        入口文件
+	│   ├── path                            请求地址配置目录
+	│   ├── css                             样式资源 
+	│   ├── images                          图片资源
+	│   ├── pages                           页面资源
+	│   ├── routes                          路由目录
+	│   ├── store                           应用级数据（state）
+	│   ├── actions                         所有actions存放
+	│   ├── containers                      容器组件
+	│   ├── components                      视图组件库           
+	│   ├── reducer                         所有的reducer存放
+
+
+	                                       
 
 
